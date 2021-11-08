@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Web3 from 'web3';
 import { AbiItem } from 'web3-utils';
 import busd_abi from '../../busd_abi.json';
