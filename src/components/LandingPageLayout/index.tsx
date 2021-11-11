@@ -9,6 +9,7 @@ interface NftItemsProps {
   url_image?: string;
   price: string;
   busd_real_price: string;
+  // saodkasokdkodasokdoaksd
 }
 const items = [
   {
