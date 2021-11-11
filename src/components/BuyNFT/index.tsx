@@ -14,6 +14,8 @@ interface BuyNFTProps {
 }
 const web3 = new Web3(Web3.givenProvider);
 
+// vendo em qual altera essa desgraca
+
 const busdContractAddress = '0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56';
 // // const totalToTransfer = '50000000000000000000';
 
