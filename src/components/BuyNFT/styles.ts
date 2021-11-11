@@ -6,7 +6,7 @@ export const Container = styled.div`
   > button {
     cursor: pointer;
     width: 100%;
-    background-color: blue;
+    background-color: green;
     height: 3rem;
     color: white;
     font-size: larger;

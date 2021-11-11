@@ -3,11 +3,12 @@ import Web3 from 'web3';
 import { AbiItem } from 'web3-utils';
 import busd_abi from '../../busd_abi.json';
 import { Container, NFTCard } from './styles';
-import MisteryBoxImage from '../../assets/D_NQ_NP_685253-MLB46765702054_072021-O.jpg';
+import MisteryBoxImage from '../../assets/caixa.jpg';
 
 interface BuyNFTProps {
   id: string;
   name: string;
+  url_image?: string;
   price: string;
   busd_real_price: string;
 }
@@ -16,7 +17,7 @@ const web3 = new Web3(Web3.givenProvider);
 const busdContractAddress = '0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56';
 // // const totalToTransfer = '50000000000000000000';
 
-export function BuyNFT({ name, price, id, busd_real_price }: BuyNFTProps) {
+export function BuyNFT({ name, price, url_image, id, busd_real_price }: BuyNFTProps) {
   const ethEnabled = async () => {
     if (window.ethereum) {
       window.web3 = new Web3(window.ethereum);
