@@ -45,12 +45,12 @@ export function BuyNFT({ name, price, url_image, id, busd_real_price }: BuyNFTPr
     }
   };
   return (
-    <Container id={id}>
+    <Container id={id}> 
       <NFTCard>
-        <img src={MisteryBoxImage} alt="mistery_box" />
+        <img src={url_image} alt="mistery_box" />
         <h1>{name}</h1>
       </NFTCard>
-      <button onClick={ethEnabled}>Price: {price}</button>
+      <button onClick={ethEnabled}>{price}</button>
     </Container>
   );
 }

@@ -8,8 +8,7 @@ export default createGlobalStyle`
     padding: 0;
     margin: 0;
     outline: none;
-    font-family: 'Montserrat', sans-serif;
-
+    font-family: 'OCR A Std', monospace;
 }
 a{
     text-decoration: none;
