@@ -14,6 +14,8 @@ interface BuyNFTProps {
 }
 const web3 = new Web3(Web3.givenProvider);
 
+// vendo em qual altera essa desgraca
+
 const busdContractAddress = '0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56';
 // // const totalToTransfer = '50000000000000000000';
 
@@ -43,12 +45,12 @@ export function BuyNFT({ name, price, url_image, id, busd_real_price }: BuyNFTPr
     }
   };
   return (
-    <Container id={id}>
+    <Container id={id}> 
       <NFTCard>
-        <img src={MisteryBoxImage} alt="mistery_box" />
+        <img src={url_image} alt="mistery_box" />
         <h1>{name}</h1>
       </NFTCard>
-      <button onClick={ethEnabled}>Price: {price}</button>
+      <button onClick={ethEnabled}>{price}</button>
     </Container>
   );
 }

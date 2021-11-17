@@ -13,31 +13,28 @@ interface NftItemsProps {
 const items = [
   {
     id: 0,
-    name: 'Mistery Box 1',
-    price: '50 BUSD',
-    busd_real_price: '50000000000000000000',
-    //url_image: 'https://i.imgur.com/UBnMor3.jpeg',
+    name: 'CAIXA SIMPLES',
+    price: '50 BVIK',
+    busd_real_price: '1000000000000000000',
+    url_image: 'https://i.imgur.com/NEc9sRL.png',
+
   },
   {
     id: 1,
     name: 'Mistery Box 2',
-    price: '60 BUSD',
-    busd_real_price: '60000000000000000000',
-    //url_image: 'https://i.imgur.com/UBnMor3.jpeg',
+
+    price: '60 BVIK',
+    busd_real_price: '600000000000000000000',
+    url_image: 'https://i.imgur.com/s5nQ6En.png',
+
   },
   {
     id: 2,
     name: 'Mistery Box 3',
-    price: '70 BUSD',
-    busd_real_price: '70000000000000000000',
-    //url_image: 'https://i.imgur.com/LhjJ7he.jpeg',
-  },
-  {
-    id: 3,
-    name: 'Mistery Box 4',
-    price: '80 BUSD',
-    busd_real_price: '80000000000000000000',
-    //url_image: 'https://i.imgur.com/UBnMor3.jpeg',
+
+    price: '70 BVIK',
+    busd_real_price: '700000000000000000000',
+    url_image: 'https://i.imgur.com/sylGvlC.png',
   },
 ];
 
