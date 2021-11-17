@@ -3,7 +3,7 @@ import Web3 from 'web3';
 import { AbiItem } from 'web3-utils';
 import busd_abi from '../../busd_abi.json';
 import { Container, NFTCard } from './styles';
-import MisteryBoxImage from '../../assets/caixa.jpg';
+// import MisteryBoxImage from '../../assets/caixa.jpg';
 
 interface BuyNFTProps {
   id: string;
